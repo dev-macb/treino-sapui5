@@ -1,0 +1,16 @@
+{
+  "name": "treino-sapui5",
+  "version": "1.0.0",
+  "description": "Passo a passo do SAP UI5",
+  "main": "index.js",
+  "scripts": {
+    "start": "ui5 serve -o index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ui5/cli": "^3.11.0"
+  }
+}

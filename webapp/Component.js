@@ -7,8 +7,8 @@ sap.ui.define([
  
    return UIComponent.extend("ui5.walkthrough.Component", {
       metadata : {
-         "interfaces": ["sap.ui.core.IAsyncContentCreation"],
-         "rootView": { "id": "app", "type": "XML", "viewName": "ui5.walkthrough.view.App" }
+         interfaces: ["sap.ui.core.IAsyncContentCreation"],
+         manifest: "json"
       },
  
       init() {

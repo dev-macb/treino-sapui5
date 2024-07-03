@@ -18,7 +18,7 @@ sap.ui.define([
          this.getView().setModel(i18nModel, "i18n");
       },
 
-      onMostrarAlerta() {
+      onShowHello() {
          // Lê a mensagem do modelo i18n
          const oBundle = this.getView().getModel("i18n").getResourceBundle();
          const sRecipient = this.getView().getModel().getProperty("/recipient/name");

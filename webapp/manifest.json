@@ -42,10 +42,10 @@
                     "bundleName": "ui5.walkthrough.i18n.i18n",
                     "supportedLocales": [""],
                     "fallbackLocale": ""
-                },
-                "invoice": {
-                    "dataSource": "invoiceRemote"
                 }
+            },
+            "invoice": {
+                "dataSource": "invoiceRemote"
             }
         },
         "rootView": {

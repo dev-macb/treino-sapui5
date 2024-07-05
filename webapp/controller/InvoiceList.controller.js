@@ -10,6 +10,11 @@ sap.ui.define([
 		onInit() {
 			const oViewModel = new JSONModel({ currency: "BRL" });
 			this.getView().setModel(oViewModel, "view");
+		},
+
+		onPress() {
+			const oRouter = this.getOwnerComponent().getRouter();
+			oRouter.navTo("detail");
 		}
 	});
 });

@@ -3,7 +3,17 @@
     xmlns:mvc="sap.ui.core.mvc"
     controllerName="ui5.walkthrough.controller.InvoiceList"
 >
-    <List headerText="{i18n>invoiceListTitle}" class="sapUiResponsiveMargin" width="auto" items="{invoice>/Invoices}" >
+    <List 
+        headerText="{i18n>invoiceListTitle}" 
+        class="sapUiResponsiveMargin" width="auto" 
+        items="{
+            path : 'invoice>/Invoices',
+            sorter : {
+                path : 'ShipperName',
+                group : true
+            }
+        }"
+    >
         <items>
             <ObjectListItem 
                 title="{invoice>Quantity} x {invoice>ProductName}"

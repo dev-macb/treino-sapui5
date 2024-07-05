@@ -4,7 +4,7 @@
   "description": "Passo a passo do SAP UI5",
   "main": "index.js",
   "scripts": {
-    "start": "ui5 serve -o test/mockServer.html",
+    "start": "ui5 serve -o index.html",
     "test": "ui5 serve -o test/unit/unitTests.qunit.html"
   },
   "keywords": [],

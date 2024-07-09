@@ -1,6 +1,6 @@
-specVersion: "3.2"
+specVersion: "3.0"
 metadata:
-  name: treino-sapui5
+  name: ui5.walkthrough
 type: application
 framework:
   name: OpenUI5
